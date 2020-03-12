@@ -20,7 +20,7 @@ After the running the “run” file and the white map can be seen near the bott
 			Empty  ——>  e
 
 After the cell type is chosen mouse click on the preferred location of the map (white area) to place the
-object. Notice keypress (e) is to erase a any cell to blank e.g. If you want to remove a block, target or robot.
+object. The Block will appear as a black cell, Target as a red cell and Robot as a green cell. Notice keypress (e) is to erase any cell to blank (white again) e.g. If you want to remove a block, target or robot.
 
 4. Starting the simulation
 
