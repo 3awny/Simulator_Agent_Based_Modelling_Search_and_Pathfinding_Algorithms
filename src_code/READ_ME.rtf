@@ -1,0 +1,94 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs36 \cf0 \ul \ulc0 How to use the software
+\b0 \ulnone \
+\
+\pard\pardeftab720\partightenfactor0
+
+\b\fs28 \cf0 1. Running the \'93run\'94 file\
+
+\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 In order to compile the code, download all the .py files and place them into 1 folder. The \'93run\'94 file must be opened in a python editor (IDLE or PyCharm) and pygame, numpy, matplotlib modules must be installed. To start the program, run the \'93run\'94 file and the pygame window will pop-up displaying the initial map seen in white at the bottom of the window. The rest of the window has been set to \'93blocks\'94 in black to reduce the size of the map as shown for purposes of shorter simulation times.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\b\fs28 \cf0 2. Choosing the simulation mode\
+
+\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 After the running the \'93run\'94 file and the white map can be seen near the bottom of the pygame\
+window, the search mode is originally on \'93DISCOVER_MAP\'94, which is the Depth-first search (DFS) and Breadth-first search (BFS) algorithms simulation. In this mode you can generate an obstacle course, by inserting as many \'93blocks\'94 as needed, place 
+\b one
+\b0  target and put as many robot agents as needed. However, to change the search mode to \'93MACHINE_LEARNING\'94, the keyboard key (
+\b m
+\b0 ) must be pressed. Keep track of output terminal shell after the key (
+\b m
+\b0 ) is pressed where there will be a print of what search mode the system has changed to. A print with the expression \'93Robot Search Mode is now MACHINE_LEARNING\'94 should be seen, which in this case will be ready to simulate reinforcement learning. If the key (
+\b m
+\b0 ) is pressed again the search mode will change back to \'93DISCOVER_MAP\'94, where a print of \'93Robot Search Mode is now DISCOVER_MAP\'94 should be seen. In the \'93MACHINE_LEARNING\'94 search mode only one robot agent should be placed in the map, one \'93target\'94 and any number of blocks can be inserted to create the preferred obstacle course.\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf0 \
+
+\b 3. Choosing the type of cell to insert
+\b0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 		
+\b Cell Type Keyboard Press
+\b0 \
+			Block \'97\'97>    
+\b b
+\b0 \
+			Target \'97\'97>   
+\b t
+\b0 \
+			Robot \'97\'97>   
+\b r
+\b0 \
+			Empty \'97\'97>  
+\b e
+\b0 \
+After the cell type is chosen mouse click on the preferred location of the map (white area) to place the\
+object. Notice keypress (e) is to erase a any cell to blank e.g. If you want to remove a block, target or robot.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\b\fs28 \cf0 4. Starting the simulation
+\b0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 Once the search mode is chosen and the map environment is created, the (
+\b Enter
+\b0 ) key on the\
+keyboard should be pressed to start the simulation. Keep track of the output terminal shell as\
+there will be relevant information displayed there for each search mode.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\b\fs28 \cf0 5. Once the simulation has ended\ul \
+
+\b0 \ulnone \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 If in the \'93MACHINE_LEARNING\'94 mode, once the simulation has ended, meaning the robot\
+agent has stopped (after the defined 300 trials), plotting the evidence of learning graphs can be done by pressing the key (
+\b p
+\b0 ) on the keyboard and the graphs will pop-up. If in the\
+\'93DISCOVER_MAP\'94 mode, once the simulation has ended, meaning all robots have reached\
+the target, information of the number of steps taken for each robot to reach the target will be\
+displayed in the output terminal shell. For the last robot, the time taken will also be displayed\
+along with the number of steps. For both modes, if a new simulation is needed, the user must\
+close current pygame window and re-run the \'93run\'94 file and customise a new map\
+environment.}
