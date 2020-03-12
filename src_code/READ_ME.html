@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Helvetica; min-height: 22.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; min-height: 17.0px}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {text-decoration: underline}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><b>How to use the software</b></span></p>
+<p class="p2"><br></p>
+<p class="p3"><b>1. Running the “run” file</b></p>
+<p class="p4"><br></p>
+<p class="p5">In order to compile the code, download all the .py files and place them into 1 folder. The “run” file must be opened in a python editor (IDLE or PyCharm) and pygame, numpy, matplotlib modules must be installed. To start the program, run the “run” file and the pygame window will pop-up displaying the initial map seen in white at the bottom of the window. The rest of the window has been set to “blocks” in black to reduce the size of the map as shown for purposes of shorter simulation times.</p>
+<p class="p6"><br></p>
+<p class="p3"><b>2. Choosing the simulation mode</b></p>
+<p class="p4"><br></p>
+<p class="p5">After the running the “run” file and the white map can be seen near the bottom of the pygame</p>
+<p class="p5">window, the search mode is originally on “DISCOVER_MAP”, which is the Depth-first search (DFS) and Breadth-first search (BFS) algorithms simulation. In this mode you can generate an obstacle course, by inserting as many “blocks” as needed, place <b>one</b> target and put as many robot agents as needed. However, to change the search mode to “MACHINE_LEARNING”, the keyboard key (<b>m</b>) must be pressed. Keep track of output terminal shell after the key (<b>m</b>) is pressed where there will be a print of what search mode the system has changed to. A print with the expression “Robot Search Mode is now MACHINE_LEARNING” should be seen, which in this case will be ready to simulate reinforcement learning. If the key (<b>m</b>) is pressed again the search mode will change back to “DISCOVER_MAP”, where a print of “Robot Search Mode is now DISCOVER_MAP” should be seen. In the “MACHINE_LEARNING” search mode only one robot agent should be placed in the map, one “target” and any number of blocks can be inserted to create the preferred obstacle course.</p>
+<p class="p4"><br></p>
+<p class="p3"><b>3. Choosing the type of cell to insert</b></p>
+<p class="p4"><br></p>
+<p class="p5"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><b>Cell Type Keyboard Press</b></p>
+<p class="p5"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>Block ——&gt;<span class="Apple-converted-space">    </span><b>b</b></p>
+<p class="p5"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>Target ——&gt; <span class="Apple-converted-space">  </span><b>t</b></p>
+<p class="p5"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>Robot ——&gt; <span class="Apple-converted-space">  </span><b>r</b></p>
+<p class="p5"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>Empty ——&gt;<span class="Apple-converted-space">  </span><b>e</b></p>
+<p class="p5">After the cell type is chosen mouse click on the preferred location of the map (white area) to place the</p>
+<p class="p5">object. Notice keypress (e) is to erase a any cell to blank e.g. If you want to remove a block, target or robot.</p>
+<p class="p6"><br></p>
+<p class="p3"><b>4. Starting the simulation</b></p>
+<p class="p4"><br></p>
+<p class="p5">Once the search mode is chosen and the map environment is created, the (<b>Enter</b>) key on the</p>
+<p class="p5">keyboard should be pressed to start the simulation. Keep track of the output terminal shell as</p>
+<p class="p5">there will be relevant information displayed there for each search mode.</p>
+<p class="p6"><br></p>
+<p class="p3"><b>5. Once the simulation has ended</b></p>
+<p class="p4"><br></p>
+<p class="p5">If in the “MACHINE_LEARNING” mode, once the simulation has ended, meaning the robot</p>
+<p class="p5">agent has stopped (after the defined 300 trials), plotting the evidence of learning graphs can be done by pressing the key (<b>p</b>) on the keyboard and the graphs will pop-up. If in the</p>
+<p class="p5">“DISCOVER_MAP” mode, once the simulation has ended, meaning all robots have reached</p>
+<p class="p5">the target, information of the number of steps taken for each robot to reach the target will be</p>
+<p class="p5">displayed in the output terminal shell. For the last robot, the time taken will also be displayed</p>
+<p class="p5">along with the number of steps. For both modes, if a new simulation is needed, the user must</p>
+<p class="p5">close current pygame window and re-run the “run” file and customise a new map</p>
+<p class="p5">environment.</p>
+</body>
+</html>
