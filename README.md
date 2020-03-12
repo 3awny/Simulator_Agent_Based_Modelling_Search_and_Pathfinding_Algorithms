@@ -25,11 +25,9 @@ object. The Block will appear as a black cell, Target as a red cell and Robot as
 4. Starting the simulation
 
 Once the search mode is chosen and the map environment is created, the (Enter) key on the
-keyboard should be pressed to start the simulation. Keep track of the output terminal shell as
+keyboard should be pressed to start the simulation. Keep track of the output shell as
 there will be relevant information displayed there for each search mode.
 
 5. Once the simulation has ended
 
-If in the “MACHINE_LEARNING” mode, once the simulation has ended, meaning the robot
-agent has stopped (after the defined 300 trials), plotting the evidence of learning graphs can be done by pressing the key (p) on the keyboard and the graphs will pop-up. If in the “DISCOVER_MAP” mode, once the simulation has ended, meaning all robots have reached
-the target, information of the number of steps taken for each robot to reach the target will be displayed in the output terminal shell. For the last robot, the time taken will also be displayed along with the number of steps. For both modes, if a new simulation is needed, the user must close current pygame window and re-run the “run” file and customise a new map environment.
+If in the “MACHINE_LEARNING” mode, once the simulation has ended, meaning the robot agent has stopped (after the defined 300 trials, which will be seen counting in the output shell), plotting the evidence of learning graphs can be done by pressing the key (p) on the keyboard and the graphs will pop-up. If in the “DISCOVER_MAP” mode, once the simulation has ended, meaning all robots have reached the target, information of the number of steps taken for each robot to reach the target will be displayed in the output shell. For the last robot, the time taken will also be displayed along with the number of steps. For both modes, if a new simulation is needed, the user must close current pygame window and re-run the “run.py” file and customise a new map environment.
