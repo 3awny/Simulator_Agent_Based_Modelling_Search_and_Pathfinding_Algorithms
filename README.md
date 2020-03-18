@@ -5,7 +5,7 @@ How to use the software
 
 1. Running the “run” file
 
-In order to run the code, download all the .py files and place them into 1 folder. The “run.py” file must be opened in a python editor (IDLE or PyCharm) and pygame, numpy, matplotlib modules must be installed. To start the program, run the “run.py” file and the pygame window will pop-up displaying the initial map seen in white at the bottom of the window. The rest of the window has been set to “blocks” in black to reduce the size of the map as shown for purposes of shorter simulation times.
+In order to run the software, download all the .py files and place them into 1 folder. The “run.py” file must be opened in a python editor (IDLE or PyCharm) and pygame, numpy, matplotlib modules must be installed. To start the program, run the “run.py” file and the pygame window will pop-up displaying the initial map seen in white at the bottom of the window. The rest of the window has been set to “blocks” in black to reduce the size of the map as shown for purposes of shorter simulation times.
 
 2. Choosing the simulation mode
 
