@@ -1,7 +1,7 @@
 # Simulator_for_Agent_Based_Modelling_of_Search_and_Pathfinding_Algorithms
 Depth-first search, Breadth-first search and Reinforcement Q-learning in the context of 2D Software Robot Agents. I have created my own simulation environment using Pygame.
 
-How to use the software
+**How to use the software**
 
 **1. Running the “run” file**
 
