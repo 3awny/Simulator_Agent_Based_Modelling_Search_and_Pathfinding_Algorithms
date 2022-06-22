@@ -1,11 +1,16 @@
 # Simulator_for_Agent_Based_Modelling_of_Search_and_Pathfinding_Algorithms
 Depth-first search, Breadth-first search and Reinforcement Q-learning in the context of 2D Software Robot Agents. I have created my own simulation environment using Pygame.
 
-**How to use the software**
+**HOW-TO**
 
-**1. Running the “run” file**
+**1. Starting the software**
 
-In order to run the software, download all the .py files and place them into 1 folder. The “run.py” file must be opened in a python editor (IDLE or PyCharm) and pygame, numpy, matplotlib modules must be installed. To start the program, run the “run.py” file and the pygame window will pop-up displaying the initial map seen in white at the bottom of the window. The rest of the window has been set to blocks in black to reduce the size of the map as shown for purposes of shorter simulation times.
+1. install python 3.8.9
+2. `python3 venv -m venv` -- create virtual environment named venv
+3. `source venv/bin/activate` -- activate virtual environment
+4. `pip install -r requirments.txt` -- install packages
+5. `python3 run.py`-- starts the software, continue with step 2 below
+
 
 **2. Choosing the simulation mode**
 
