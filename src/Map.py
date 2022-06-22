@@ -8,6 +8,7 @@ class MapCellType(Enum):  # enum created to store cell types
     TARGET = 4
     UNKNOWN_CELL = 5
 
+
 class Map:
     def __init__(self, height, width, cell_size):
         num_rows = height // cell_size  # dividing window height by selected cell size to get number of rows

@@ -5,8 +5,10 @@ from RobotSearchMode import ROBOT_SEARCH_MODE
 import numpy as np
 #from RobotMap import RobotMap
 
+
 class Robot:
     avg_rewards = []
+
     def __init__(self, robot_pos, shared_map, shared_visited, robot_search_mode):
         self.discovered_map = shared_map
         self.visited = shared_visited
@@ -255,7 +257,6 @@ class Robot:
         colz = self.robot_current_position[1] + displacement[1]  # updating current robot column position accordingly
         self.robot_current_position = [rowz, colz]  # assigning the current robot position to the updated values
         return displacement  # return the resulting displacement
-
 
     def received_target_position(self, target_position):
         self.target_position = target_position

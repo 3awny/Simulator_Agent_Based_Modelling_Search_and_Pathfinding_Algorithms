@@ -1,4 +1,3 @@
-# importing needed libraries
 import os
 import pygame
 from Map import Map
@@ -213,7 +212,6 @@ class Simulation:
             self.draw_map()
             pygame.display.flip()
 
-
         if len(self.robots) > 0:
             robot_shared_map_file = open("robot_shared_map.pkl", "wb")
             robot_shared_visited_file = open("robot_shared_visited.pkl", "wb")
@@ -237,7 +235,7 @@ class Simulation:
         for i in range(len(self.robots)):
             self.robots[i].set_other_robots(other_robots)
 
-# main function is called
+
 if __name__ == '__main__':
     width = 800
     height = 600

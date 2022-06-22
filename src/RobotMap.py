@@ -4,6 +4,7 @@ import numpy as np
 import random
 from RobotSearchMode import ROBOT_SEARCH_MODE
 
+
 class RobotMap:
 
     def __init__(self, robot_position, world_map, shared_map, shared_visited, robot_search_mode):
